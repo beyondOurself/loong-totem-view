@@ -1,8 +1,22 @@
 {
   "name": "loong-totem-view",
   "version": "0.0.0",
-  "main": "index.ts",
   "license": "MIT",
+  "main": "./lib/umd.index.js",
+  "files": [
+    "lib"
+  ],
+  "module": "./lib/es.index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/es.index.js",
+      "require": "./lib/umd.index.js"
+    }
+  },
+  "scripts": {
+    "build": " vue-tsc --noEmit && vite build --config ../../vite.config.ts --mode button",
+    "clean": "rimraf lib"
+  },
   "peerDependencies": {
     "vue": "^3.2.25"
   },

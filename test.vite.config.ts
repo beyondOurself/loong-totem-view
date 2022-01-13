@@ -1,8 +1,15 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 const path = require('path')
+
+console.log(">>>>>",path.resolve(__dirname, './index.ts'))
+
+
 export default defineConfig(
+
   ({ command, mode }) => {
+    console.log("command", command)
+    console.log("mode", mode)
 
     if (command === 'serve') {
       return {
@@ -13,9 +20,8 @@ export default defineConfig(
       return {
         //  dev 独有配置
         build: {
-          outDir: 'lib',
           lib: {
-            entry: path.resolve(__dirname, `packages/${mode}/index.ts`),
+            entry: path.resolve(__dirname, './index.ts'),
             name: mode,
             fileName: (format) => `${format}.index.js`,
             formats: ['es', 'umd']

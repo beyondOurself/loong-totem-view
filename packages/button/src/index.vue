@@ -1,6 +1,6 @@
 <template>
   <div>
-    <slot>这是按钮</slot>
+    <slot>this is Button </slot>
   </div>
 </template>
 <script lang='ts'>

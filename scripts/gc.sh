@@ -32,7 +32,7 @@ mkdir -p "$DIRNAME/__tests__"
 cat > $DIRNAME/src/index.vue <<EOF
 <template>
   <div>
-    <slot></slot>
+    <slot>this is ${NAME} </slot>
   </div>
 </template>
 <script lang='ts'>
@@ -64,13 +64,26 @@ cat > $DIRNAME/package.json <<EOF
 {
   "name": "@loong-totem-view/$INPUT_NAME",
   "version": "0.0.0",
-  "main": "dist/index.js",
+  "main": "./lib/umd.index.js",
   "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "module": "./lib/es.index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/es.index.js",
+      "require": "./lib/umd.index.js"
+    }
+  },
+  "scripts": {
+    "build": " vue-tsc --noEmit && vite build --config ../../vite.config.ts --mode $INPUT_NAME",
+    "clean": "rimraf lib"
+  },
   "peerDependencies": {
     "vue": "^3.2.25"
   },
   "devDependencies": {
-    "@vue/test-utils": "^2.0.0-beta.3"
   }
 }
 EOF
