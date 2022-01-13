@@ -1,0 +1,36 @@
+{
+  "hash": "0fc1544c",
+  "browserHash": "f92b0af0",
+  "optimized": {
+    "clipboard": {
+      "file": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/docs/.vuepress/.cache/clipboard.js",
+      "src": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/node_modules/clipboard/dist/clipboard.js",
+      "needsInterop": true
+    },
+    "vue": {
+      "file": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/docs/.vuepress/.cache/vue.js",
+      "src": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js",
+      "needsInterop": false
+    },
+    "vue-router": {
+      "file": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/docs/.vuepress/.cache/vue-router.js",
+      "src": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/node_modules/vue-router/dist/vue-router.esm-bundler.js",
+      "needsInterop": false
+    },
+    "@vueuse/core": {
+      "file": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/docs/.vuepress/.cache/@vueuse_core.js",
+      "src": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/node_modules/@vueuse/core/index.mjs",
+      "needsInterop": false
+    },
+    "nprogress": {
+      "file": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/docs/.vuepress/.cache/nprogress.js",
+      "src": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/node_modules/nprogress/nprogress.js",
+      "needsInterop": true
+    },
+    "@vuepress/shared": {
+      "file": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/docs/.vuepress/.cache/@vuepress_shared.js",
+      "src": "C:/Users/Getech-200107-1/Desktop/loong-totem-view/node_modules/@vuepress/shared/lib/esm/index.js",
+      "needsInterop": false
+    }
+  }
+}

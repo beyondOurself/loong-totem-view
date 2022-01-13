@@ -1,0 +1,13 @@
+
+@import "../common/var.scss";
+
+
+/*BEM
+--------------------------------- */
+@mixin  b($block) {
+  $B: $namespace+'-'+$block !global;
+
+  .#{$B} {
+    @content;
+  }
+}

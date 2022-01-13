@@ -1,0 +1,14 @@
+{
+  "name": "loong-totem-view",
+  "version": "0.0.0",
+  "main": "index.ts",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@loong-totem-view/button": "^0.0.0",
+    "@loong-totem-view/tag": "^0.0.0",
+    "@vue/test-utils": "^2.0.0-beta.3"
+  }
+}

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@import 'common/var.scss';
+@import 'mixins/mixins.scss';
+
+@include b(tag) {
+  display: inline-block;
+  line-height: 1;
+}
