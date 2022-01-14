@@ -3,6 +3,7 @@
   "version": "0.0.2",
   "main": "./lib/umd.index.js",
   "license": "MIT",
+  "private": false,
   "files": [
     "lib"
   ],
@@ -20,5 +21,5 @@
   "peerDependencies": {
     "vue": "^3.2.25"
   },
-  "gitHead": "b06c7be7c890cd3e691a4e5d902d9dac66817629"
+  "gitHead": "426a8e0e00e0c8733fe56dbf020bb522cacfed7e"
 }
