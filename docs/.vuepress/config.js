@@ -3,8 +3,8 @@ const myplugin = require('./myplugin')
 
 module.exports = {
     title: '',
-    base:'/loong-totem-view/',
-    dest:'page',
+    base:'/loong-totem-view/page/',
+    dest:'./docs/page',
     theme: path.resolve(__dirname, 'theme/index.js'),
     markdown: {
         importCode: {

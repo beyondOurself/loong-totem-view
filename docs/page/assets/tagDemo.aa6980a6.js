@@ -1,0 +1,1 @@
+import{o as e,c as r}from"./app.22b06c51.js";import{_ as t}from"./plugin-vue_export-helper.21dcd24c.js";const o={data(){return{}}};function a(c,p,n,s,_,d){return e(),r("div",null," \u8FD9\u662FTag\u6F14\u793A ")}var f=t(o,[["render",a]]);export{f as default};
