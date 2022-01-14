@@ -3,9 +3,7 @@ export const data = {
   "path": "/",
   "title": "",
   "lang": "en-US",
-  "frontmatter": {
-    "home": true
-  },
+  "frontmatter": {},
   "excerpt": "",
   "headers": [
     {
@@ -16,8 +14,14 @@ export const data = {
     }
   ],
   "git": {
-    "updatedTime": null,
-    "contributors": []
+    "updatedTime": 1642156839000,
+    "contributors": [
+      {
+        "name": "longlong",
+        "email": "562172151@qq.com",
+        "commits": 1
+      }
+    ]
   },
   "filePathRelative": "README.md"
 }
