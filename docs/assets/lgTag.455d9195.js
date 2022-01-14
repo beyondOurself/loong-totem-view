@@ -1,0 +1,1 @@
+import{o as e,c as r}from"./app.05ea219e.js";import{_ as t}from"./plugin-vue_export-helper.21dcd24c.js";const a={data(){return{}}};function o(s,c,p,n,l,_){return e(),r("div",null," this is lgTag ")}var u=t(a,[["render",o]]);export{u as default};
