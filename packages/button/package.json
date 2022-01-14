@@ -1,6 +1,6 @@
 {
   "name": "@loong-totem-view/button",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./lib/umd.index.js",
   "license": "MIT",
   "files": [
@@ -19,7 +19,5 @@
   },
   "peerDependencies": {
     "vue": "^3.2.25"
-  },
-  "devDependencies": {
   }
 }
