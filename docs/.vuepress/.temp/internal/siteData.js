@@ -1,5 +1,5 @@
 export const siteData = {
-  "base": "/",
+  "base": "/loong-totem-view/",
   "lang": "en-US",
   "title": "",
   "description": "",

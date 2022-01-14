@@ -3,6 +3,7 @@ const myplugin = require('./myplugin')
 
 module.exports = {
     title: '',
+    base:'/loong-totem-view/',
     dest:'./docs/doc',
     theme: path.resolve(__dirname, 'theme/index.js'),
     markdown: {
