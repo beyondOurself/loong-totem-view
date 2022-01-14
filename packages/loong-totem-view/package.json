@@ -24,5 +24,6 @@
     "@loong-totem-view/button": "^0.0.1",
     "@loong-totem-view/tag": "^0.0.1",
     "@vue/test-utils": "^2.0.0-beta.3"
-  }
+  },
+  "gitHead": "b06c7be7c890cd3e691a4e5d902d9dac66817629"
 }
