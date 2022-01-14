@@ -1,6 +1,6 @@
 {
   "name": "@loong-totem-view/tag",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "main": "./lib/umd.index.js",
   "license": "MIT",
   "files": [
@@ -21,9 +21,7 @@
     "vue": "^3.2.25"
   },
   "publishConfig": {
-
     "access": "public"
-
-},
+  },
   "gitHead": "248e755f529ecb5bffbb0afd917dfc5c2a0f0ef7"
 }
