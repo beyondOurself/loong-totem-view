@@ -1,7 +1,7 @@
 {
   "name": "loong-totem-view",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "main": "./lib/umd.index.js",
   "files": [
@@ -22,8 +22,8 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
-    "@loong-totem-view/button": "^0.0.2",
-    "@loong-totem-view/tag": "^0.0.2",
+    "@loong-totem-view/button": "^0.0.3",
+    "@loong-totem-view/tag": "^0.0.3",
     "@vue/test-utils": "^2.0.0-beta.3"
   },
   "gitHead": "426a8e0e00e0c8733fe56dbf020bb522cacfed7e"

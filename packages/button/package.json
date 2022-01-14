@@ -1,6 +1,6 @@
 {
   "name": "@loong-totem-view/button",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./lib/umd.index.js",
   "license": "MIT",
   "private": false,
