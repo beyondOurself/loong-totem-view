@@ -60,7 +60,7 @@ module.exports = {
                         return `</template>
                             <template #description>${description}</template>
                             <template #code>
-                               <div class='code_box-hidden'  data-code='xxxx'></div>
+                               <div class='code_box-hidden'  data-code='${content}'></div>
                             </template>
                             <template #demo  >
                               <${demoCompName}></${demoCompName}>
