@@ -1,6 +1,6 @@
 {
   "name": "@loong-totem-view/tag",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/umd.index.js",
   "license": "MIT",
   "files": [
