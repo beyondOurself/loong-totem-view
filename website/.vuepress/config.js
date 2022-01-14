@@ -5,7 +5,7 @@ module.exports = {
     title: 'loong-totem-view website',
     base: './',
     dest:'docs',
-    theme: path.resolve(__dirname, 'theme/index.js'),
+    extends: '@vuepress/theme-default',
     markdown: {
         importCode: {
             handleImportPath: (str) =>
