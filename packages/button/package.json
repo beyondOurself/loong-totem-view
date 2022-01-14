@@ -23,5 +23,9 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "248e755f529ecb5bffbb0afd917dfc5c2a0f0ef7"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/element-plus/element-plus.git"
+  },
+  "homepage": "https://element-plus.org"
 }

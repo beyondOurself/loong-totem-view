@@ -18,7 +18,7 @@
 <span class="line"></span></code></pre></div></template>
                             <template #description>  这就是  <code>666</code> 愚蠢的地球人啊</template>
                             <template #code>
-                               <div class='code_box-hidden' data-code='<template>
+                               <div class='code_box-hidden' v-pre data-code='<template>
   <div>
     这是Tag演示
   </div>
@@ -80,7 +80,7 @@ export default {
 <span class="line"></span></code></pre></div></template>
                             <template #description> 演示2</template>
                             <template #code>
-                               <div class='code_box-hidden' data-code='<template>
+                               <div class='code_box-hidden' v-pre data-code='<template>
   <div>
       <button prop="xxxx">按钮的实例</button>
       <button>按钮的实例</button>

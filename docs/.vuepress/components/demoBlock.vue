@@ -10,15 +10,19 @@
           data-clipboard-target="#copy-content"
           @click="clipboardWrite"
         >
+        <ClientOnly>
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-fuzhi"></use>
           </svg>
+          </ClientOnly>
         </span>
         <slot name="code"></slot>
         <span class="icon-code_wrap" @click="codeShowTrigger()">
+          <ClientOnly>
           <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-code"></use>
           </svg>
+          </ClientOnly>
         </span>
       </div>
 
@@ -32,7 +36,7 @@
   </div>
 </template>
 <script>
-  import '../public/iconfont.js'
+  // import '../public/iconfont.js'
   import Clipboard from 'clipboard'
 export default {
    data(){

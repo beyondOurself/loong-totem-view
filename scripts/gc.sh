@@ -76,6 +76,9 @@ cat > $DIRNAME/package.json <<EOF
       "require": "./lib/umd.index.js"
     }
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "build": " vue-tsc --noEmit && vite build --config ../../vite.config.ts --mode $INPUT_NAME",
     "clean": "rimraf lib"
