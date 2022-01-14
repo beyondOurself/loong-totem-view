@@ -1,7 +1,7 @@
 {
   "name": "loong-totem-view-theme",
   "version": "0.0.0",
-  "main": "dist/index.js",
+  "main": "lib/index.css",
   "license": "MIT",
   "peerDependencies": {
     "vue": "^3.2.25"
