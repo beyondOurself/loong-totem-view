@@ -8,7 +8,6 @@ module.exports = {
     theme: path.resolve(__dirname, './theme/index.js'),
     themeConfig: {
         logo: 'https://vuejs.org/images/logo.png',
-        home: './README.md',
         navbar: [
             // NavbarItem
             {
