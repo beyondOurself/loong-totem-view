@@ -1,0 +1,1 @@
+import{r as o,o as t,a as r,b as n}from"./app.2cf6552a.js";import{_ as a}from"./plugin-vue_export-helper.21dcd24c.js";const c={data(){return{}}};function s(p,_,l,u,d,m){const e=o("lg-button");return t(),r("div",null,[n(e)])}var b=a(c,[["render",s]]);export{b as default};
