@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <slot>this is Button </slot>
+  <div class="lg-button">
+    <slot>我改变了</slot>
   </div>
 </template>
 <script lang='ts'>

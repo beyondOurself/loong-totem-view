@@ -1,3 +1,7 @@
+  
+@import "../../../packages/loong-totem-view-theme/src/index.scss";
+
+  
   :root {
 
    --code-bg-color: #f5f7fa;
@@ -13,3 +17,8 @@
     --shiki-token-punctuation: #9879ee;
     --shiki-token-link: #09f51c;
   }
+
+  div[class*=language-] .highlight-lines .highlight-line {
+    background-color: #f1f0f2;
+}
+  

@@ -31,7 +31,7 @@ mkdir -p "$DIRNAME/__tests__"
 
 cat > $DIRNAME/src/index.vue <<EOF
 <template>
-  <div>
+  <div class="lg-${NAME}">
     <slot>this is ${NAME} </slot>
   </div>
 </template>
@@ -81,6 +81,7 @@ cat > $DIRNAME/package.json <<EOF
   },
   "scripts": {
     "build": " vue-tsc --noEmit && vite build --config ../../vite.config.ts --mode $INPUT_NAME",
+    "build:watch": " vue-tsc --noEmit && vite build --watch --config ../../vite.config.ts --mode $INPUT_NAME",
     "clean": "rimraf lib"
   },
   "peerDependencies": {

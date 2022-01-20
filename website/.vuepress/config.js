@@ -2,14 +2,40 @@ const { path } = require('@vuepress/utils')
 const myplugin = require('./myplugin')
 
 module.exports = {
-    title: 'loong-totem-view website',
+    title: 'loong',
     base: './',
     dest:'docs',
-    extends: '@vuepress/theme-default',
+    theme: path.resolve(__dirname, './theme/index.js'),
+    themeConfig: {
+        logo: 'https://vuejs.org/images/logo.png',
+        home: './README.md',
+        navbar: [
+            // NavbarItem
+            {
+                text: '组件',
+                link: '/components/button.html',
+            },
+        ],
+
+        sidebar: [
+               
+            {
+                text: 'Button',
+                link: '/components/button.html',
+            },
+            {
+                text: 'Tag',
+                link: '/components/tag.html'
+            },
+
+        ]
+    },
     markdown: {
         importCode: {
-            handleImportPath: (str) =>
-                str.replace(/^@demo/, path.resolve(__dirname, 'components/demo/')),
+            handleImportPath: (str) => {
+                const dir = str.replace(/.*\/(.*)Demo.*vue/igs,"$1")
+                return str.replace(/^@demo/, path.resolve(__dirname, `components/demo/${dir}`))
+        }
         },
         code: {
             lineNumbers:false

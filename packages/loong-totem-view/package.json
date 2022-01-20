@@ -14,7 +14,8 @@
     }
   },
   "scripts": {
-    "build": " vue-tsc --noEmit && vite build --config ../../vite.config.ts --mode button",
+    "build": " vue-tsc --noEmit && vite build  --config ../../vite.config.ts --mode loong-totem-view",
+    "build:watch": " vue-tsc --noEmit && vite build --watch --config ../../vite.config.ts --mode loong-totem-view",
     "clean": "rimraf lib"
   },
   "peerDependencies": {

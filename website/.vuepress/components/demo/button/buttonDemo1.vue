@@ -1,6 +1,6 @@
 <template>
   <div>
-    <lg-button></lg-button>
+      <lg-button></lg-button>
   </div>
 </template>
 <script>
@@ -11,5 +11,5 @@ export default {
   },
 }
 </script>
-<style lang="less">
+<style lang="sass">
 </style>

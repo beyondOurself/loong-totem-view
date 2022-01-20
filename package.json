@@ -17,7 +17,9 @@
   ],
   "scripts": {
     "dev": "vite",
+    "dev:watch": "lerna --scope=loong-totem-view run build:watch",
     "build": "vue-tsc --noEmit && vite build --watch",
+    "build:fill": "lerna run build",
     "preview": "vite preview",
     "gen": "bash ./scripts/gc.sh",
     "clean:lib": "rimraf lib",

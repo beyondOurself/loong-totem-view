@@ -1,6 +1,6 @@
 <template>
   <div>
-    <lg-button></lg-button>
+    这是  buttonDemo2 444
   </div>
 </template>
 <script>
