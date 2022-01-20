@@ -3,7 +3,7 @@ const myplugin = require('./myplugin')
 
 module.exports = {
     title: 'loong',
-    base: './',
+    base: '',
     dest:'docs',
     theme: path.resolve(__dirname, './theme/index.js'),
     themeConfig: {

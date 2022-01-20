@@ -1,0 +1,1 @@
+import{_ as e,r as o,o as a,a as n,b as r}from"./app.3fba9dda.js";const s={data(){return{}}};function c(p,_,d,l,u,f){const t=o("lg-button");return a(),n("div",null,[r(t)])}var b=e(s,[["render",c]]);export{b as default};

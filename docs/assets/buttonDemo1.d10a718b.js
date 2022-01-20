@@ -1,1 +1,0 @@
-import{_ as t,r as o,o as n,a,b as r}from"./app.e8c2e57b.js";const s={data(){return{}}};function c(p,_,l,u,d,m){const e=o("lg-button");return n(),a("div",null,[r(e)])}var b=t(s,[["render",c]]);export{b as default};
