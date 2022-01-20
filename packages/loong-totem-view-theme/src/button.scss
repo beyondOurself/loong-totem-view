@@ -1,8 +1,0 @@
-@charset "UTF-8";
-@import 'common/var.scss';
-@import 'mixins/mixins.scss';
-
-@include b(button) {
-   background-color: red;
-   color: green;
-}
