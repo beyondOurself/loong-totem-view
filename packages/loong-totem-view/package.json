@@ -1,0 +1,33 @@
+{
+  "name": "loong-totem-view",
+  "version": "0.0.4",
+  "license": "MIT",
+  "main": "./lib/umd.index.js",
+  "files": [
+    "lib"
+  ],
+  "module": "./lib/es.index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/es.index.js",
+      "require": "./lib/umd.index.js"
+    }
+  },
+  "scripts": {
+    "build": " vue-tsc --noEmit && vite build  --config ../../vite.config.ts --mode loong-totem-view",
+    "build:watch": " vue-tsc --noEmit && vite build --watch --config ../../vite.config.ts --mode loong-totem-view",
+    "clean": "rimraf lib"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@loong-totem-view/button": "^0.0.4",
+    "@loong-totem-view/tag": "^0.0.4",
+    "@vue/test-utils": "^2.0.0-beta.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "248e755f529ecb5bffbb0afd917dfc5c2a0f0ef7"
+}

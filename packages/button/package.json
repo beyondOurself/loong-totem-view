@@ -1,0 +1,32 @@
+{
+  "name": "@loong-totem-view/button",
+  "version": "0.0.4",
+  "main": "./lib/umd.index.js",
+  "license": "MIT",
+  "files": [
+    "lib"
+  ],
+  "module": "./lib/es.index.js",
+  "exports": {
+    ".": {
+      "import": "./lib/es.index.js",
+      "require": "./lib/umd.index.js"
+    }
+  },
+  "scripts": {
+    "build": " vue-tsc --noEmit && vite build  --config ../../vite.config.ts --mode button",
+    "build:watch": " vue-tsc --noEmit && vite build --watch  --config ../../vite.config.ts --mode button",
+    "clean": "rimraf lib"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.25"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/element-plus/element-plus.git"
+  },
+  "homepage": "https://element-plus.org"
+}

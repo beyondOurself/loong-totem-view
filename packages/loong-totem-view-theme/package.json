@@ -1,0 +1,21 @@
+{
+  "name": "loong-totem-view-theme",
+  "version": "0.0.4",
+  "main": "lib/index.css",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^2.0.0-beta.3",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-rename": "^2.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "248e755f529ecb5bffbb0afd917dfc5c2a0f0ef7"
+}
