@@ -1,6 +1,6 @@
 <template>
   <div class="lg-button">
-    <slot>1111天空海阔是武警美梦你说你我改变了</slot>
+    <slot>1111222天空海阔是武警美梦你说你我改变了</slot>
   </div>
 </template>
 <script lang='ts'>

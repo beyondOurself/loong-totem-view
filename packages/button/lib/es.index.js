@@ -13,7 +13,7 @@ const _sfc_main = defineComponent({
   }
 });
 const _hoisted_1 = { class: "lg-button" };
-const _hoisted_2 = /* @__PURE__ */ createTextVNode("1111\u5929\u7A7A\u6D77\u9614\u662F\u6B66\u8B66\u7F8E\u68A6\u4F60\u8BF4\u4F60\u6211\u6539\u53D8\u4E86");
+const _hoisted_2 = /* @__PURE__ */ createTextVNode("1111222\u5929\u7A7A\u6D77\u9614\u662F\u6B66\u8B66\u7F8E\u68A6\u4F60\u8BF4\u4F60\u6211\u6539\u53D8\u4E86");
 function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
   return openBlock(), createElementBlock("div", _hoisted_1, [
     renderSlot(_ctx.$slots, "default", {}, () => [

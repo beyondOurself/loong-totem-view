@@ -1,0 +1,1 @@
+import{_ as e,o as a,a as t}from"./app.e8c2e57b.js";const r={data(){return{}}};function o(c,n,s,p,_,d){return a(),t("div",null," \u8FD9\u662FTag\u6F14\u793A ")}var l=e(r,[["render",o]]);export{l as default};

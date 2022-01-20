@@ -1,1 +1,0 @@
-import{o as e,a as t}from"./app.2cf6552a.js";import{_ as o}from"./plugin-vue_export-helper.21dcd24c.js";const r={data(){return{}}};function a(n,c,p,s,u,_){return e(),t("div",null," \u8FD9\u662F buttonDemo2 444 ")}var l=o(r,[["render",a]]);export{l as default};
