@@ -1,1 +1,0 @@
-import{_ as e,o as t,a as o}from"./app.60e72b13.js";const a={data(){return{}}};function r(n,s,c,p,_,u){return t(),o("div",null," \u8FD9\u662F buttonDemo2 444 ")}var f=e(a,[["render",r]]);export{f as default};

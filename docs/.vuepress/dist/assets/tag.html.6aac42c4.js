@@ -1,1 +1,0 @@
-const t={key:"v-df550e82",path:"/components/tag.html",title:"tag",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{updatedTime:null,contributors:[]},filePathRelative:"components/tag.md"};export{t as data};
