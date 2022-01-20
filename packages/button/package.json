@@ -15,7 +15,7 @@
   },
   "scripts": {
     "build": " vue-tsc --noEmit && vite build  --config ../../vite.config.ts --mode button",
-    "build:watch": " vue-tsc --noEmit && vite build --watch  --config ../../vite.config.ts --mode button",
+    "build:watch": " vue-tsc --noEmit && vite build   --config ../../vite.config.ts --mode button",
     "clean": "rimraf lib"
   },
   "peerDependencies": {

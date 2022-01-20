@@ -5,3 +5,4 @@ dist-ssr
 .temp/
 .cache/
 dist
+lib

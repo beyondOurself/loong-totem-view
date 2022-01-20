@@ -2,14 +2,10 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 const path = require('path')
 
-console.log(">>>>>",path.resolve(__dirname, './index.ts'))
-
 
 export default defineConfig(
 
   ({ command, mode }) => {
-    console.log("command", command)
-    console.log("mode", mode)
 
     if (command === 'serve') {
       return {
