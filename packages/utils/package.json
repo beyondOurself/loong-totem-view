@@ -1,0 +1,11 @@
+{
+  "name": "@loong-totem-view/utils",
+  "version": "0.0.0",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "vue": "^3.2.25"
+  }
+}

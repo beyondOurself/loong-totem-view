@@ -744,6 +744,10 @@
   "resolved" "file:packages/tag"
   "version" "0.0.4"
 
+"@loong-totem-view/utils@^0.0.0", "@loong-totem-view/utils@file:C:\\Users\\Getech-200107-1\\Desktop\\loong-totem-view\\packages\\utils":
+  "resolved" "file:packages/utils"
+  "version" "0.0.0"
+
 "@nodelib/fs.scandir@2.1.5":
   "integrity" "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="
   "resolved" "https://registry.npmjs.org/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz"

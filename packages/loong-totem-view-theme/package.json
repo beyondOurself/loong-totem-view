@@ -17,5 +17,8 @@
   "publishConfig": {
     "access": "public"
   },
-  "gitHead": "248e755f529ecb5bffbb0afd917dfc5c2a0f0ef7"
+  "gitHead": "248e755f529ecb5bffbb0afd917dfc5c2a0f0ef7",
+  "dependencies": {
+    "@loong-totem-view/utils": "^0.0.0"
+  }
 }
