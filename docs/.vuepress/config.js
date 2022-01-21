@@ -2,12 +2,12 @@ const { path } = require('@vuepress/utils')
 
 module.exports = {
     lang: 'zh-CN',
-    title: '你好， VuePress ！',
-    description: '这是我的第一个 VuePress 站点',
+    title: '',
+    description: 'Loong Totem View',
     base: '/loong-totem-view/',
     theme: '@vuepress/theme-default',
     themeConfig: {
-        logo: 'https://vuejs.org/images/logo.png',
+        logo: '/loong.png',
         navbar: [
             // NavbarItem
             {
