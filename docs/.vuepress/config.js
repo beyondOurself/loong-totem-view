@@ -17,7 +17,7 @@ module.exports = {
         ],
 
         sidebar: [
-               
+
             {
                 text: 'Button',
                 link: '/components/button.html',
@@ -32,16 +32,16 @@ module.exports = {
     markdown: {
         importCode: {
             handleImportPath: (str) => {
-                const dir = str.replace(/.*\/(.*)Demo.*vue/igs,"$1")
+                const dir = str.replace(/.*\/(.*)Demo.*vue/igs, "$1")
                 return str.replace(/^@demo/, path.resolve(__dirname, `components/demo/${dir}`))
-        }
+            }
         },
         code: {
-            lineNumbers:false
+            lineNumbers: false
         }
     },
     plugins: [
-        
+
         [
             '@vuepress/register-components',
             {
@@ -80,12 +80,17 @@ module.exports = {
                         const tokenInfo = tokens[idx - 2]
                         // 结束标签
                         const content = token.content
-                        const description = tokenInfo.info.replace(/\s*demo(.*)/igs, '$1');
+
+                        const descriptions = tokenInfo.info.replace(/\s*demo(.*)\+(.*)\+/igs, '$1||$2').split("||");
+
+                        const preDesc = descriptions[0]
+                        const nextCody = descriptions[1]
+
                         const demoCompName = token.meta.importPath.replace(/.*\/(.*)\.vue$/igs, '$1')
                         return `</template>
-                            <template #description>${description}</template>
+                            <template #description>${preDesc}</template>
                             <template #code>
-                               <div class='code_box-hidden'  data-code='xxx'></div>
+                               <div class='code_box-hidden'  data-code='${nextCody}'></div>
                             </template>
                             <template #demo  >
                               <${demoCompName}></${demoCompName}>
