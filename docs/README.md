@@ -31,7 +31,7 @@ footer: by饿了么
     <p style="margin:0px;font-size: 12px;color:#666">Efficiency</p>
   </div>
   <div style="display: flex;flex-direction: column;align-items: center;">
-    <img style="width:100px" src="/controllability%20%20.png" alt="可控">
+    <img style="width:100px" src="/controllability.png" alt="可控">
     <p style="margin:5px">可控</p>
     <p style="margin:0px;font-size: 12px;color:#666">Controllability</p>
   </div>
