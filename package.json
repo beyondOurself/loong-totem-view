@@ -16,7 +16,7 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "vite",
+    "icons:dev": "vite packages/loong-totem-view-icons  --config ./vite.config.ts --mode loong-totem-view-icons",
     "preview": "vite preview",
     "build": "vue-tsc --noEmit && vite build --watch",
     "bootstrap": "lerna bootstrap",
@@ -34,6 +34,7 @@
     "vue": "^3.2.25"
   },
   "devDependencies": {
+    "@iconify-json/mdi": "^1.0.12",
     "@vitejs/plugin-vue": "^2.0.0",
     "@vuepress/plugin-container": "^2.0.0-beta.32",
     "@vuepress/plugin-register-components": "^2.0.0-beta.32",
@@ -45,6 +46,8 @@
     "rimraf": "^3.0.2",
     "sass": "^1.47.0",
     "typescript": "^4.4.4",
+    "unplugin-icons": "^0.13.0",
+    "unplugin-vue-components": "^0.17.14",
     "vite": "^2.7.2",
     "vue-tsc": "^0.29.8",
     "vuepress": "^2.0.0-beta.32"

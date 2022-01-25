@@ -6,6 +6,10 @@ module.exports = {
     description: 'Loong Totem View',
     base: '/loong-totem-view/',
     theme: '@vuepress/theme-default',
+    locales: {
+        // 键名是该语言所属的子路径
+        // 作为特例，默认语言可以使用 '/' 作为其路径。
+    },
     themeConfig: {
         logo: '/loong.png',
         navbar: [
@@ -19,12 +23,42 @@ module.exports = {
         sidebar: [
 
             {
-                text: 'Button',
-                link: '/components/button.html',
+                text: 'Basic 基础组件',
+                children: [
+                    '/components/button.md',
+                    '/components/tag.md',
+                    '/components/icon.md',
+                ]
             },
             {
-                text: 'Tag',
-                link: '/components/tag.html'
+                text: 'Form表单组件',
+               children: [
+                    
+                ]
+            },
+            {
+                text: 'Data数据展示',
+               children: [
+                    
+                ]
+            },
+            {
+                text: 'Navigation 导航',
+               children: [
+                    
+                ]
+            },
+            {
+                text: 'Feedback 反馈组件',
+               children: [
+                    
+                ]
+            },
+            {
+                text: 'Others 其他',
+               children: [
+                    
+                ]
             },
 
         ]
@@ -41,7 +75,7 @@ module.exports = {
         }
     },
     plugins: [
-
+       
         [
             '@vuepress/register-components',
             {
@@ -106,6 +140,7 @@ module.exports = {
         ],
         ['@vuepress/plugin-shiki', {
             theme: 'css-variables'
-        }]
+        }],
+        
     ],
 }

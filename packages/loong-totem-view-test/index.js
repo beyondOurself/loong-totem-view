@@ -1,10 +1,12 @@
 import LgButton from '../button/src/index.vue'
 import LgTag from '../tag/src/index.vue'
+import LgIcon from '../icon/src/index.vue'
 import { version as version_ } from './version'
 const version = version_
 const components = [
   LgButton,
-  LgTag
+  LgTag,
+  LgIcon
 ]
 
 const install = (app) => {
@@ -15,7 +17,8 @@ const install = (app) => {
 
 export {
   LgButton,
-  LgTag
+  LgTag,
+  LgIcon
 }
 
 export default {

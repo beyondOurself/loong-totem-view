@@ -45,19 +45,19 @@ export default defineComponent({
   },
 })
 </script>
-<style scoped>
-</style>
 EOF
 
 cat <<EOF >"$DIRNAME/index.ts"
 import { App } from 'vue'
+import { SFCWithInstall } from '@loong-totem-view/utils/types'
+
 import ${NAME} from './src/index.vue'
 
 ${NAME}.install = (app: App): void => {
   app.component(${NAME}.name, ${NAME})
 }
-
-export default ${NAME}
+const _${name} : SFCWithInstall<typeof ${name}> = ${name}
+export default _${NAME}
 EOF
 
 cat > $DIRNAME/package.json <<EOF

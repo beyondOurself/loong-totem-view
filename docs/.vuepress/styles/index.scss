@@ -2,10 +2,11 @@
 
 :root {
   --c-text-accent: #f8b751;
+  --back-to-top-color:var(--c-text-accent) ;
   --code-bg-color: #f5f7fa;
   --shiki-color-text: #acaccf;
   --shiki-color-background: #cf8080;
-  --shiki-token-constant: var(--c-text-accent) 1;
+  --shiki-token-constant: var(--c-text-accent);
   --shiki-token-string: #d54747;
   --shiki-token-comment: #f00909;
   --shiki-token-keyword: #9595ef;
