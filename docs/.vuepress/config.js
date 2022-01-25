@@ -32,32 +32,32 @@ module.exports = {
             },
             {
                 text: 'Form表单组件',
-               children: [
-                    
+                children: [
+
                 ]
             },
             {
                 text: 'Data数据展示',
-               children: [
-                    
+                children: [
+
                 ]
             },
             {
                 text: 'Navigation 导航',
-               children: [
-                    
+                children: [
+
                 ]
             },
             {
                 text: 'Feedback 反馈组件',
-               children: [
-                    
+                children: [
+
                 ]
             },
             {
                 text: 'Others 其他',
-               children: [
-                    
+                children: [
+
                 ]
             },
 
@@ -75,7 +75,7 @@ module.exports = {
         }
     },
     plugins: [
-       
+
         [
             '@vuepress/register-components',
             {
@@ -141,6 +141,6 @@ module.exports = {
         ['@vuepress/plugin-shiki', {
             theme: 'css-variables'
         }],
-        
+
     ],
 }
