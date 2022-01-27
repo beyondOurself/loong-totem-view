@@ -80,6 +80,7 @@ export default {
 </script>
 <style lang='scss'>
 @import '../public/iconfont.css';
+// @import '../public/loong-totem.css';
 
 // vars >
 $v-padding: 10px;

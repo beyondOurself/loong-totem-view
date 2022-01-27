@@ -1,9 +1,9 @@
 @font-face {
   font-family: "loong-icons"; /* Project id 3159602 */
-  src: url('fonts/loong-totem.woff2') format('woff2'),
-       url('fonts/loong-totem.woff') format('woff'),
-       url('fonts/loong-totem.ttf') format('truetype'),
-       url('fonts/loong-totem.svg') format('svg');
+  src: url('loong-totem.woff2?t=1643076259896') format('woff2'),
+       url('loong-totem.woff?t=1643076259896') format('woff'),
+       url('loong-totem.ttf?t=1643076259896') format('truetype'),
+       url('loong-totem.svg?t=1643076259896#loong-icons') format('svg');
 }
 
 .loong-icons {

@@ -1,5 +1,5 @@
 <template>
-    <i :class="`lg-icon-${name}`"> </i>
+    <i :class="`loong-icons lg-icon-${name}`"> </i>
 </template>
 <script lang='ts'>
 import { defineComponent } from 'vue'

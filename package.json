@@ -37,7 +37,6 @@
     "@iconify-json/mdi": "^1.0.12",
     "@vitejs/plugin-vue": "^2.0.0",
     "@vuepress/plugin-container": "^2.0.0-beta.32",
-    "@vuepress/plugin-docsearch": "^2.0.0-beta.35",
     "@vuepress/plugin-register-components": "^2.0.0-beta.32",
     "@vuepress/plugin-search": "^2.0.0-beta.35",
     "@vuepress/plugin-shiki": "^2.0.0-beta.32",
@@ -52,6 +51,6 @@
     "unplugin-vue-components": "^0.17.14",
     "vite": "^2.7.2",
     "vue-tsc": "^0.29.8",
-    "vuepress": "^2.0.0-beta.32"
+    "vuepress": "2.0.0-beta.35"
   }
 }

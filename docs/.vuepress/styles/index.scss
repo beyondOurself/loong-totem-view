@@ -1,4 +1,6 @@
 @import '../../../packages/loong-totem-view-theme/src/index.scss';
+@import'/loong-totem.css';
+ //@import '../../../packages/loong-totem-view-theme/lib/index.css';
 
 :root {
   --c-text-accent: #f8b751;
@@ -11,7 +13,7 @@
   --shiki-token-comment: #f00909;
   --shiki-token-keyword: #9595ef;
   --shiki-token-parameter: #84b906;
-  --shiki-token-function: #d50d0d;
+  --shiki-token-function: #67c23a;
   --shiki-token-string-expression: #ffad60;
   --shiki-token-punctuation: #9879ee;
   --shiki-token-link: #09f51c;

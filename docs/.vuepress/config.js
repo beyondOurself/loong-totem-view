@@ -5,13 +5,30 @@ module.exports = {
     title: '',
     description: 'Loong Totem View',
     base: '/loong-totem-view/',
-    theme: '@vuepress/theme-default',
     locales: {
         // 键名是该语言所属的子路径
         // 作为特例，默认语言可以使用 '/' 作为其路径。
+        '/': {
+            lang: 'zh-CN',
+            title: 'VuePress',
+            description: 'Vue-powered Static Site Generator',
+        },
+        '/en/': {
+            lang: 'en-US',
+            title: 'VuePress',
+            description: 'Vue 驱动的静态网站生成器',
+        },
     },
     themeConfig: {
         logo: '/loong.png',
+        locales: {
+            '/': {
+                selectLanguageName: '简体中文',
+            },
+            '/en/': {
+                selectLanguageName: 'English',
+            },
+        },
         navbar: [
             // NavbarItem
             {
@@ -89,12 +106,32 @@ module.exports = {
 
         ],
         [
+            '@vuepress/plugin-search',
+            {
+
+                locales: {
+                    '/': {
+                        placeholder: '搜索',
+                    },
+                    '/en/': {
+                        placeholder: 'Search',
+                    },
+                },
+                hotKeys: ['f'],
+                maxSuggestions: 5,
+                isSearchable: (page) => page.path !== '/',
+            },
+        ],
+        [
             '@vuepress/container',
             {
                 type: 'demo',
                 locales: {
                     '/': {
                         defaultInfo: '演示',
+                    },
+                    '/en/': {
+                        defaultInfo: 'demo',
                     },
                 },
                 validate(params) {
@@ -141,6 +178,8 @@ module.exports = {
         ['@vuepress/plugin-shiki', {
             theme: 'css-variables'
         }],
+
+        
 
     ],
 }
