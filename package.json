@@ -16,6 +16,7 @@
     "packages/*"
   ],
   "scripts": {
+    "publish":"lerna publish",
     "icons:dev": "vite packages/loong-totem-view-icons  --config ./vite.config.ts --mode loong-totem-view-icons",
     "preview": "vite preview",
     "install":"yarn install",
