@@ -2,12 +2,17 @@
 // ,'/loong-totem.css'
 
 :root {
-  --c-text-accent: #f8b751;
-  --back-to-top-color:var(--c-text-accent) ;
+  --lg-main: #f8b751;
+  --lg-main-light:#f6c272;
+  --c-text-accent: var(--lg-main);
+  --back-to-top-color: var(--lg-main);
+  --back-to-top-color-hover: var(--lg-main);
+  --c-brand-light: var(--lg-main-light);
+  --c-brand: var(--lg-main);
   --code-bg-color: #f5f7fa;
   --shiki-color-text: #acaccf;
   --shiki-color-background: #cf8080;
-  --shiki-token-constant: var(--c-text-accent);
+  --shiki-token-constant: var(--lg-main);
   --shiki-token-string: #d54747;
   --shiki-token-comment: #f00909;
   --shiki-token-keyword: #9595ef;

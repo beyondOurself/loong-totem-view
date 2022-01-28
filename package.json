@@ -16,10 +16,10 @@
     "packages/*"
   ],
   "scripts": {
-    "publish":"lerna publish",
+    "publish": "lerna publish",
     "icons:dev": "vite packages/loong-totem-view-icons  --config ./vite.config.ts --mode loong-totem-view-icons",
     "preview": "vite preview",
-    "install":"yarn install",
+    "build:install": "yarn install",
     "build": "vue-tsc --noEmit && vite build --watch",
     "bootstrap": "lerna bootstrap --hoist",
     "dev:watch": "lerna --scope=loong-totem-view run build:watch",
@@ -38,10 +38,10 @@
   "devDependencies": {
     "@iconify-json/mdi": "^1.0.12",
     "@vitejs/plugin-vue": "^2.0.0",
-    "@vuepress/plugin-container": "^2.0.0-beta.32",
-    "@vuepress/plugin-register-components": "^2.0.0-beta.32",
+    "@vuepress/plugin-container": "^2.0.0-beta.35",
+    "@vuepress/plugin-register-components": "^2.0.0-beta.35",
     "@vuepress/plugin-search": "^2.0.0-beta.35",
-    "@vuepress/plugin-shiki": "^2.0.0-beta.32",
+    "@vuepress/plugin-shiki": "^2.0.0-beta.35",
     "clipboard": "^2.0.8",
     "cp-cli": "^2.0.0",
     "gulp": "^4.0.2",
