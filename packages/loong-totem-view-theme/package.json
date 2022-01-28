@@ -1,6 +1,6 @@
 {
   "name": "loong-totem-view-theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "lib/index.css",
   "license": "MIT",
   "peerDependencies": {
@@ -22,6 +22,6 @@
   },
   "gitHead": "248e755f529ecb5bffbb0afd917dfc5c2a0f0ef7",
   "dependencies": {
-    "@loong-totem-view/utils": "^0.0.0"
+    "@loong-totem-view/utils": "^0.0.5"
   }
 }

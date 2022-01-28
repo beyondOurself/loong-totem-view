@@ -1,6 +1,6 @@
 {
   "name": "@loong-totem-view/utils",
-  "version": "0.0.0",
+  "version": "0.0.5",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

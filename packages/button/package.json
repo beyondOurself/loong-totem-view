@@ -1,6 +1,6 @@
 {
   "name": "@loong-totem-view/button",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "./lib/umd.index.js",
   "license": "MIT",
   "files": [
@@ -30,6 +30,6 @@
   },
   "homepage": "https://element-plus.org",
   "dependencies": {
-    "@loong-totem-view/utils": "^0.0.0"
+    "@loong-totem-view/utils": "^0.0.5"
   }
 }
