@@ -1,3 +1,4 @@
+@import "common/var";
 @font-face {
   font-family: "loong-icons"; /* Project id 3159602 */
   src: url('fonts/loong-totem.woff2') format('woff2'),
@@ -6,12 +7,20 @@
        url('fonts/loong-totem.svg') format('svg');
 }
 
-.loong-icons {
+[class^="#{$namespace}-icon-"], [class*=" #{$namespace}-icon-"] {
   font-family: "loong-icons" !important;
   font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.lg-icon-code:before {
+  content: "\e615";
+}
+
+.lg-icon-fuzhi1:before {
+  content: "\ec7a";
 }
 
 .lg-icon-cangku:before {

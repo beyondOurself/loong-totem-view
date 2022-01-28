@@ -19,6 +19,12 @@ module.exports = {
             description: 'Vue 驱动的静态网站生成器',
         },
     },
+    alias: {
+        'fonts/loong-totem.woff2': "/iconfont.woff2",
+        'fonts/loong-totem.woff': "/iconfont.woff",
+        'fonts/loong-totem.ttf': "/iconfont.ttf",
+        'fonts/loong-totem.svg': "/iconfont.svg",
+    },
     themeConfig: {
         logo: '/loong.png',
         locales: {

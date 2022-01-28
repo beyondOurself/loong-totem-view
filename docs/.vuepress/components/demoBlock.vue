@@ -1,29 +1,32 @@
 <template>
-  <div class="--demo-block">
-    <div class="--description">
+  <div class="demo-block">
+   
+     
+
+    <div class="demo-block--description">
       <slot name="description"></slot>
     </div>
-    <div class="--content">
-      <div class="--content__operate">
+    <div class="demo-block__content">
+      <div class="content_operate">
         <span
           class="icon-fuzhi_wrap copy-btn"
           data-clipboard-target="#copy-content"
           @click="clipboardWrite"
         >
-          <span class="iconfont icon-fuzhi"></span>
+            <lg-icon name='fuzhi1'></lg-icon>
         </span>
         <slot name="code"></slot>
         <span class="icon-code_wrap" @click="codeShowTrigger()">
-          <span class="iconfont icon-code"></span>
+               <lg-icon name='code'></lg-icon>
         </span>
       </div>
 
-      <div class="--content__demo">
+      <div class="content_demo">
         <slot name="demo"></slot>
       </div>
     </div>
     <div
-      class="--source"
+      class="source"
       :style="{ height: `${sourceHeight}px` }"
       ref="sourceEl"
     >
@@ -79,8 +82,6 @@ export default {
 }
 </script>
 <style lang='scss'>
-@import '../public/iconfont.css';
-// @import '../public/loong-totem.css';
 
 // vars >
 $v-padding: 10px;
@@ -90,16 +91,16 @@ $v-padding: 10px;
   font-size: 1.5em;
   color: var(--c-text);
 }
-.--content {
+.demo-block__content {
   border: 1px solid var(--c-border);
   overflow: hidden;
 }
-.--content__operate {
+.content_operate {
   border-bottom: 1px solid var(--c-border);
   padding: $v-padding;
   text-align: right;
 }
-.--content__demo {
+.content_demo {
   padding: $v-padding * 2;
 }
 .icon-fuzhi_wrap,
@@ -111,7 +112,7 @@ $v-padding: 10px;
   height: 0;
   width: 0;
 }
-.--source {
+.source {
   height: 0;
   overflow: hidden;
 
@@ -124,7 +125,7 @@ $v-padding: 10px;
   padding: $v-padding;
   border-top: 0px;
 }
-.--description {
+.demo-block--description {
   padding: 2em 1em;
 }
 </style>

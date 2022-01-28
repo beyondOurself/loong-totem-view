@@ -31,7 +31,7 @@
     "config:build": "vue-tsc --noEmit && vite build -config test.vite.config.ts"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "vue": "^3.2.29"
   },
   "devDependencies": {
     "@iconify-json/mdi": "^1.0.12",
