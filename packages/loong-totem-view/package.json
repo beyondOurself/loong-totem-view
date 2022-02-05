@@ -23,6 +23,8 @@
   },
   "devDependencies": {
     "@loong-totem-view/button": "^0.0.5",
+    "@loong-totem-view/col": "^0.0.0",
+    "@loong-totem-view/row": "^0.0.0",
     "@loong-totem-view/tag": "^0.0.5",
     "@vue/test-utils": "^2.0.0-beta.3"
   },

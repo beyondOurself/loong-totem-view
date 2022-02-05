@@ -10,11 +10,11 @@ module.exports = {
         // 作为特例，默认语言可以使用 '/' 作为其路径。
         '/': {
             lang: 'zh-CN',
-            description: 'Vue-powered Static Site Generator',
+            description: '基于Vue3.x 的UI组件库',
         },
         '/en/': {
             lang: 'en-US',
-            description: 'Vue 驱动的静态网站生成器',
+            description: '基于Vue3.x 的UI组件库',
         },
     },
     alias: {
@@ -49,6 +49,8 @@ module.exports = {
                     '/components/button.md',
                     '/components/tag.md',
                     '/components/icon.md',
+                    '/components/layout.md',
+
                 ]
             },
             {
@@ -155,12 +157,9 @@ module.exports = {
                         const tokenInfo = tokens[idx - 2]
                         // 结束标签
                         const content = token.content
-
-                        const descriptions = tokenInfo.info.replace(/\s*demo(.*)\+(.*)\+/igs, '$1||$2').split("||");
-
+                        const descriptions = tokenInfo.info.replace(/demo(.*)\+*(.*)/igs, '$1||$2').split("||");
                         const preDesc = descriptions[0]
                         const nextCody = descriptions[1]
-
                         const demoCompName = token.meta.importPath.replace(/.*\/(.*)\.vue$/igs, '$1')
                         return `</template>
                             <template #description>${preDesc}</template>
