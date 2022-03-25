@@ -1,0 +1,1 @@
+import{_ as e,o as t,a as r,F as s,b as a,h as c}from"./app.d2586a59.js";const n={},o=a("h1",{id:"tag",tabindex:"-1"},[a("a",{class:"header-anchor",href:"#tag","aria-hidden":"true"},"#"),c(" tag")],-1),_=a("p",null,"\u8FD9\u662Ftag",-1);function d(h,l){return t(),r(s,null,[o,_],64)}var f=e(n,[["render",d]]);export{f as default};
